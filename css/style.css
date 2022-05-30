@@ -1,0 +1,189 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn-primary {
+    background: #1eba55;
+    color: #171ab3ea;
+    text-transform: uppercase;
+    padding: 18px 25px;
+    border: none;
+    border-radius: 30px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    cursor: pointer;
+}
+
+.logo {
+    height: 40px;
+    width: auto;
+}
+
+
+
+
+#navbar {
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    position: static;
+    width: 100%;
+}
+
+.navbar-container {
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.navbar-container ul {
+    display: flex;
+    list-style: none;
+    font-weight: bold;
+}
+
+.navbar-container ul li {
+    padding: 0 20px;
+}
+
+.navbar-container ul li:hover {
+    color: #24aa4a;
+    cursor: pointer;
+    transition: all 100ms ease;
+}
+
+.navbar-container ul li:nth-child(3) {
+    border-right: 1px white;
+}
+
+
+
+
+#showcase {
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #171ab3ea;
+}
+
+.showcase-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.showcase-container h2 {
+    margin: 15px 0;
+    font-size: 8rem;
+    color:#1eba55;
+}
+
+.showcase-container p {
+    font-size: 1.1rem;
+    color:#1eba55;
+    margin: 15px 0;
+    font-weight: bold;
+}
+
+
+
+
+#footer {
+    background: black;
+    color: white;
+    padding: 90px 0;
+}
+
+.footer-content {
+    display: flex;
+    width: 73%;
+    margin: auto;
+    padding: 10px 0px;
+}
+
+.footer-content .footer-menu {
+    margin: 0 60px;
+    list-style: none;
+}
+
+.footer-menu .footer-menu-item {
+    margin: 25px 20px;
+}
+
+.footer-content .footer-menu-item:hover {
+    color: #24aa4a;
+    cursor: pointer;
+    transition: all 100ms ease;
+}
+
+.footer-content .footer-menu p {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #919496;
+    font-size: 0.8rem;
+    padding: 20px;
+}
+
+
+
+
+.sociais {
+    display: flex;
+}
+
+.sociais i {
+    margin: 0 20px;
+    font-size: 1.7rem;
+}
+
+
+.sociais i:hover {
+    color: #24aa4a;
+    cursor: pointer;
+}
+
+
+
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 75%;
+    margin: auto;
+    color:#919496;
+    font-size: 0.75rem;
+    padding-top: 50px;
+}
+
+.footer-info .footer-info-items {
+    display: flex;
+    list-style: none;
+}
+
+.footer-info .footer-info-items .footer-info-item {
+    margin: 0 12px;
+}
+
+.footer-info .footer-info-items .footer-info-item:hover {
+    color: #24aa4a;
+    cursor: pointer;
+    transition: all 100ms ease;
+}
+
+.footer-info .rights .country {
+    display: flex;
+    justify-content: flex-end;
+}
